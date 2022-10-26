@@ -3,24 +3,30 @@
     "development"
   ],
   "hints": {
-    "meta-viewport": "off",
+    "meta-viewport": "on",
     "axe/text-alternatives": [
       "default",
       {
-        "image-alt": "off"
+        "image-alt": "on"
       }
     ],
     "axe/language": [
       "default",
       {
-        "html-has-lang": "off"
+        "html-has-lang": "on"
       }
     ],
     "axe/structure": [
       "default",
       {
-        "list": "off",
-        "listitem": "off"
+        "list": "on",
+        "listitem": "on"
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
       }
     ]
   }
